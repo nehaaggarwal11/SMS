@@ -59,8 +59,7 @@ $autoload['packages'] = array();
   |
   |	$autoload['libraries'] = array('user_agent' => 'ua');
  */
-$autoload['libraries'] = array('database', 'email','session', 'form_validation', 'upload', 'pagination',
-   'Customlib', 'Role', 'Smsgateway', 'QDMailer','Adler32','Aes');
+$autoload['libraries'] = array('database', 'session', 'form_validation');
 
 /*
   | -------------------------------------------------------------------
@@ -128,4 +127,4 @@ $autoload['language'] = array();
   |
   |	$autoload['model'] = array('first_model' => 'first');
  */
-$autoload['model'] = array('session_model', 'class_model', 'staff_model', 'section_model', 'setting_model', 'classsection_model', 'category_model', 'student_model', 'feemaster_model', 'feecategory_model', 'feetype_model', 'studentfee_model', 'stuattendence_model', 'attendencetype_model', 'studentsession_model', 'language_model', 'admin_model', 'smsconfig_model', 'langpharses_model', 'subject_model', 'teacher_model', 'teachersubject_model', 'exam_model', 'mark_model', 'examschedule_model', 'examresult_model', 'expense_model', 'expensehead_model', 'studenttransportfee_model', 'book_model', 'grade_model', 'timetable_model', 'hostel_model', 'route_model', 'content_model', 'user_model', 'notification_model', 'paymentsetting_model','payroll_model', 'roomtype_model','department_model','designation_model', 'hostelroom_model', 'vehicle_model', 'vehroute_model', 'librarian_model', 'accountant_model','homework_model', 'librarymanagement_model', 'librarymember_model', 'bookissue_model', 'feegroup_model', 'feegrouptype_model', 'feesessiongroup_model', 'studentfeemaster_model', 'feediscount_model','emailconfig_model','income_model','incomehead_model','itemcategory_model','schoolhouse_model','item_model','messages_model','itemstore_model','itemsupplier_model','notificationsetting_model','itemstock_model','itemissue_model','userlog_model','cms_program_model','cms_menu_model','cms_media_model','cms_page_model','cms_menuitems_model','cms_page_content_model','role_model','calendar_model','userpermission_model','staffroles_model','staffattendancemodel','rolepermission_model','Certificate_model','classteacher_model','Generatecertificate_model','Student_id_card_model','timeline_model','Generateidcard_model','Module_model','subjectgroup_model','studentsubjectgroup_model','subjecttimetable_model','studentsubjectattendence_model','audit_model','Chat_model','apply_leave_model','disable_reason_model','question_model','leavetypes_model','alumni_model','lessonplan_model','syllabus_model');
+$autoload['model'] = array();
